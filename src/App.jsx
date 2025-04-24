@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TitleUpdater from "./features/page-titles/components/title-updater.component.1.0.0.jsx";
+import PageMetaUpdater from "./features/page-meta/components/page-meta-updater.component.1.0.0";
 /*import Home from "./pages/Home";
 import Messages from "./pages/Messages";
 import Profile from "./pages/Profile";*/
@@ -12,7 +12,7 @@ const Profile = () => <div>Profile</div>;
 function App() {
     return (
         <BrowserRouter>
-            <TitleUpdater />
+            <PageMetaUpdater />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/messages" element={<Messages />} />

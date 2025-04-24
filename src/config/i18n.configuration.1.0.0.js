@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import { pageTitles } from "../features/page-titles/config/page-titles.configuration.1.0.0.js";
+import { pageTitles } from "../features/page-meta/config/page-titles.translations.1.0.0";
 
 i18n
     .use(initReactI18next)
