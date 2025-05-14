@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useClientStore } from "../../../stores/client.store";
+import { useClientStore } from "../../../stores/client.store.1.0.0";
 
 export function useClientInfos() {
     const [clientInfos, setClientInfos] = useState(null);
